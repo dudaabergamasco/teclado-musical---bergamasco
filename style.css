@@ -5,3 +5,19 @@
        --branco: white;
        --luz: #ff5c77;
  }
+
+ body{
+      background-color: var(--roxo);
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+ }
+
+ hi{
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: var(--branco);
+ }
